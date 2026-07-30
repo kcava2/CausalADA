@@ -1,0 +1,33 @@
+══════════════════════════════════════════════════
+DATASET BUILD REPORT
+══════════════════════════════════════════════════
+
+SOURCE IMAGES
+──────────────────────────────────────────────────
+Innovation Hangar (raw)        : 20986
+Innovation Hangar (after deaug): 4651  (dropped 16335 augmented)
+AI Assistant                   : 2922
+Lemi Debele                    : 2924
+UTS                            : 6793
+Total staged                   : 17290
+After deduplication            : 10135  (removed 7155 duplicates)
+
+CROPS EXTRACTED
+──────────────────────────────────────────────────
+structural_crack               : 4071
+dent                           : 3025
+no_damage (raw)                : 9412
+no_damage (after dedup)        : 9412
+no_damage (overlap violations) : 0
+no_damage (after balance)      : 3025
+
+FINAL SPLIT
+──────────────────────────────────────────────────
+Class              Train   Valid   Test    Total  
+structural_crack   3053    610     408     4071   
+dent               2268    453     304     3025   
+no_damage          2268    453     304     3025   
+──────────────────────────────────────────────────
+TOTAL              7589    1516    1016    10121  
+
+══════════════════════════════════════════════════

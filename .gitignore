@@ -1,7 +1,12 @@
 /inference_results
-/dataset
+/dataset/test
+/dataset/train
+/dataset/valid
+/dataset/__pycache__
 /eval_plots
 /figs_aircraft
-/*.json
+*.json
 /checkpoints
 /__pycache__
+*.pyc
+*.csv
