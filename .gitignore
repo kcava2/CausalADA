@@ -1,0 +1,7 @@
+/inference_results
+/dataset
+/eval_plots
+/figs_aircraft
+/eval_results.json
+/checkpoints
+/__pycache__
